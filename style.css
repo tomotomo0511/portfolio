@@ -1,7 +1,29 @@
 body {
   margin: 0 auto;
-  height: auto;
+  height: 200vh;
   width: 100vw;
+  background-color: cadetblue;
   font-family: "游ゴシック体", "Yu Gothic",YuGothic,"メイリオ",Meiryo,Osaka,"ＭＳ Ｐゴシック","MS PGothic","Lato", "tahoma",sans-serif;
 }
 /* -----------⬆リセットCSS⬆--------------------- */
+header {
+  height: auto;
+  width: 100%;
+  border-bottom: solid 2px #ccc;
+}
+.header {
+  height: 80px;
+  width: 50%;
+  display: flex;
+  justify-content: space-evenly;
+  margin: auto;
+}
+.header-list {
+  height: auto;
+  padding: 0 20px;
+  list-style: none;
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 80px;
+  color: #454545;
+}
