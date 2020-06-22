@@ -2,7 +2,7 @@ body {
   margin: 0 auto;
   height: 200vh;
   width: 100vw;
-  font-family: "游ゴシック体", "Yu Gothic",YuGothic,"メイリオ",Meiryo,Osaka,"ＭＳ Ｐゴシック","MS PGothic","Lato", "tahoma",sans-serif;
+  font-family: serif;
 }
 /* -----------⬆リセットCSS⬆--------------------- */
 header {
@@ -12,7 +12,7 @@ header {
   background-color: cadetblue;
 }
 .header {
-  height: 80px;
+  height: 50px;
   width: 50%;
   display: flex;
   justify-content: space-evenly;
@@ -24,12 +24,36 @@ header {
   list-style: none;
   font-size: 20px;
   font-weight: bold;
-  line-height: 80px;
+  line-height: 50px;
   color: #454545;
 }
 section {
   height: 50%;
   width: 100%;
+}
+.section {
+  height: auto;
+  width: 100%;
+  /* background-color: yellow; */
+  border: solid;
+}
+.section-image-box {
+  height: auto;
+  width: 40%;
+  background-color: wheat;
+  display: flex;
+}
+.section-image {
+  width: 100%;
+  border: solid;
+}
+.section-title {
+  height: 250px;
+  padding: 20px;
+  writing-mode: vertical-rl;
+  border: solid;
+  color: #454545;
+  font-family: serif;
 }
 .section-about {
   background-color: thistle;
