@@ -35,7 +35,7 @@ section {
   height: auto;
   width: 100%;
   /* background-color: yellow; */
-  border: solid;
+  /* border: solid; */
 }
 .section-image-box {
   height: auto;
@@ -45,7 +45,7 @@ section {
 }
 .section-image {
   width: 100%;
-  border: solid;
+  /* border: solid; */
 }
 .section-title {
   height: 250px;
