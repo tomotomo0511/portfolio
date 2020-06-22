@@ -2,7 +2,6 @@ body {
   margin: 0 auto;
   height: 200vh;
   width: 100vw;
-  background-color: cadetblue;
   font-family: "游ゴシック体", "Yu Gothic",YuGothic,"メイリオ",Meiryo,Osaka,"ＭＳ Ｐゴシック","MS PGothic","Lato", "tahoma",sans-serif;
 }
 /* -----------⬆リセットCSS⬆--------------------- */
@@ -10,6 +9,7 @@ header {
   height: auto;
   width: 100%;
   border-bottom: solid 2px #ccc;
+  background-color: cadetblue;
 }
 .header {
   height: 80px;
@@ -26,4 +26,35 @@ header {
   font-weight: bold;
   line-height: 80px;
   color: #454545;
+}
+section {
+  height: 50%;
+  width: 100%;
+}
+.section-about {
+  background-color: thistle;
+}
+.section-skill {
+  background-color: wheat;
+}
+.section-work {
+  background-color: whitesmoke;
+}
+.section-contact {
+  background-color: aqua;
+}
+footer {
+  height: 50px;
+  width: 100%;
+  background-color: cadetblue;
+}
+.footer {
+  height: 50px;
+  width: 50%;
+  margin: auto;
+  text-align: center;
+  line-height: 50px;
+  background-color: yellow;
+  color: #454545;
+  font-weight: bold;
 }
